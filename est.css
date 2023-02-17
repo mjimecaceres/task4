@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Sassy+Frass&display=swap');
+
+* {
+    
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+    
+}
+
+body{
+    display: flex;
+    position: relative;
+  }
+
+  main{
+    min-height: 87vh;
+    background-color: rgb(214, 255, 196);
+    padding: 1rem;
+}
+
+
+h1 {
+    font-family: sans-serif;
+    text-shadow: 5px 20px 10px rgb(16, 17, 17);
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 6px rgba(100, 78, 222, 0.365);
+    
+      }
+.contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+   
+
+table {
+    background-color: rgb(5, 119, 107);
+    border-collapse: collapse;
+    border: 1px solid #000;
+    border-radius: 6px;
+    
+
+}
+
+th,
+td,tr {
+    border: 1px solid black;
+    color: white;
+    padding: 20px;
+}
+.texto1{
+   padding: 1em;
+}
+
+.mapa{
+    width: 400px;
+    height: 270px;
+    display: flex;
+   
+    border-radius: 1rem;
+
+   
+}
+
+
+p
+{
+    padding: 1em;
+    width: 100%;
+}

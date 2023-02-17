@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <title>Formulario y mapa</title>
+</head>
+<body>
+   
+
+  <form action="./show_data.html" method="get">
+   <h1>Registration Form</h1>
+        
+    <div class="contenedor">
+    <div class="nombre">
+    <label for="Nombre">Players First Name</label>
+    <input name="Players First Name" type="text" id="Nombre">
+</div>
+     <div class="last">
+    <label for="Last">Last Name</label>
+    <input name="Last Name" type="text" id="Last"> 
+</div>
+    <div class="street">
+    <label for="Street">Street Address</label>
+    <input name="Street" type="text" id="Street">
+</div>
+     <div class="City">
+    <label for="City">City</label>
+    <input name="City" type="text" id="City">
+</div>
+     <div class="Code">
+    <label for="Code">Zip Code</label>
+    <input name="Zip Code" type="text" id="Code">
+</div>
+    <div class="Birth">
+    <label for="Birth">Birth Date(mm/dd/yyyy)</label>
+    <input type="Date" id="start" name="trip-start" value="16-02-2023" 
+    min="01-01-1960" max="01-01-2015">
+    </div>
+<div class="gender">
+    <label>
+        Gender
+        <input type="checkbox">Female
+        <input type="checkbox">Male
+    </label>
+ </div>
+    <div class="Grade">
+    <label>
+        Grade Pre-School
+        <input type="checkbox">&nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <input type="checkbox">1st
+        <input type="checkbox">2nd
+        <input type="checkbox">3rd
+        <input type="checkbox">4th
+        <input type="checkbox">5th
+ </label>
+ 
+</div>
+   <div>
+   <h3>Which elementary school do ou live near?</h3>
+   <h3>Closest School:</h3>
+</div>
+   <div class="Jugador">
+   <label>
+    <input type="checkbox">AJ Katzenmaier
+    <input type="checkbox">Marjorie P Hart 
+    <input type="checkbox">Greenbay
+    <input type="checkbox">North Elementary 
+    <input type="checkbox">Howard A Yeager
+    <input type="checkbox">South Elementary
+   </label>
+</div>
+   <div>
+   <h3>What position(s) do you normally play?(check all that apply)</h3>
+</div>
+    <div class="Posicion">
+   <label>
+     <input type="checkbox">Forward
+     <input type="checkbox">Midfield 
+     <input type="checkbox">Defense
+     <input type="checkbox">Goalkeeper
+   </label>
+</div>
+   <div>
+   <h3>Uniform Size</h3>
+</div>
+    <div class="Medidas">
+   <label>
+    <input type="checkbox">Youth Small
+    <input type="checkbox">Medium 
+    <input type="checkbox">Youth Medium
+    <input type="checkbox">Large 
+    <input type="checkbox">Youth Large
+    <input type="checkbox">Extra-Large
+    <input type="checkbox">Small
+   </label>
+</div>
+<h3>Permission to Play</h3>
+    <div class="permiso">
+   <p>I, the parent or guardian of the minor registant and I will abide by all the rules
+    of the Mighty Ducks Hockey League(MDHL). In recognizing the possibility of physical injury associated
+    with hockey and in consideration for the "League" accepting the registrant for its
+    hockry programs and activities. I hereby release, discharge, and/or otherwise idemnify MDHL, their employees 
+    and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the 
+    registrant´s participation in the programand/orbeing trabsported to or from MDHL sponsored activities,wich trasnsportation
+    By signing below, I herebyagree andauthorizethe above.I addition, by signing
+    below,lalso acknowledge that I have read the cancellation policy and agree to is terms.</p>
+</div>
+   <div class="Pariente">
+    <label for="Parent">Parent/GuardianSignature</label>
+    <input name="Parent" type="text" id="Parent"> 
+    </div>
+    <div class="date">
+    <label for="Date">Date</label> 
+    <input name="Date" type="text" id="Date">
+    
+    </div>
+
+    <input type="submit" value="Submit">
+    </div>
+
+ </form>
+</body>
+</html>
